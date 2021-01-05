@@ -1,0 +1,140 @@
+{
+    "privateKey": "",
+    "publicAddress": "",
+    "rpc": "https://testnet-tezos.giganode.io/",
+    "contract": [
+        {
+            "prim": "storage",
+            "args": [
+                {
+                    "prim": "int"
+                }
+            ]
+        },
+        {
+            "prim": "parameter",
+            "args": [
+                {
+                    "prim": "or",
+                    "args": [
+                        {
+                            "prim": "pair",
+                            "args": [
+                                {
+                                    "prim": "int",
+                                    "annots": [
+                                        "%a"
+                                    ]
+                                },
+                                {
+                                    "prim": "int",
+                                    "annots": [
+                                        "%b"
+                                    ]
+                                }
+                            ],
+                            "annots": [
+                                "%add"
+                            ]
+                        },
+                        {
+                            "prim": "or",
+                            "args": [
+                                {
+                                    "prim": "int",
+                                    "annots": [
+                                        "%multiply"
+                                    ]
+                                },
+                                {
+                                    "prim": "int",
+                                    "annots": [
+                                        "%update"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "prim": "code",
+            "args": [
+                [
+                    {
+                        "prim": "DUP"
+                    },
+                    {
+                        "prim": "CDR"
+                    },
+                    {
+                        "prim": "SWAP"
+                    },
+                    {
+                        "prim": "CAR"
+                    },
+                    {
+                        "prim": "IF_LEFT",
+                        "args": [
+                            [
+                                {
+                                    "prim": "DUP"
+                                },
+                                {
+                                    "prim": "CDR"
+                                },
+                                {
+                                    "prim": "SWAP"
+                                },
+                                {
+                                    "prim": "CAR"
+                                },
+                                {
+                                    "prim": "ADD"
+                                },
+                                {
+                                    "prim": "ADD"
+                                }
+                            ],
+                            [
+                                {
+                                    "prim": "IF_LEFT",
+                                    "args": [
+                                        [
+                                            {
+                                                "prim": "MUL"
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "prim": "SWAP"
+                                            },
+                                            {
+                                                "prim": "DROP"
+                                            }
+                                        ]
+                                    ]
+                                }
+                            ]
+                        ]
+                    },
+                    {
+                        "prim": "NIL",
+                        "args": [
+                            {
+                                "prim": "operation"
+                            }
+                        ]
+                    },
+                    {
+                        "prim": "PAIR"
+                    }
+                ]
+            ]
+        }
+    ],
+    "storage": {
+        "int": "0"
+    }
+}

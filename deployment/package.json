@@ -1,0 +1,16 @@
+{
+  "name": "deployment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "deploy.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Soumya Ghosh Dastidar",
+  "license": "ISC",
+  "dependencies": {
+    "@taquito/michelson-encoder": "^7.1.0-beta.0",
+    "@taquito/signer": "^7.1.0-beta.0",
+    "@taquito/taquito": "^7.1.0-beta.0"
+  }
+}
