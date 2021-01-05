@@ -1,2 +1,2 @@
 # tezos-workshop
-Resources and code shared during tezos workdhop in the python week
+Resources and code shared during tezos workshop in the python week
