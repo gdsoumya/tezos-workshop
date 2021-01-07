@@ -15,11 +15,11 @@ Resources and code shared during tezos workshop in the python week. The presenta
 
 1. [PyTezos](https://pytezos.org/)
 2. [Taquito](https://tezostaquito.io/docs)
-3. [ConseilJS](cryptonomic.github.io/ConseilJS)
+3. [ConseilJS](https://cryptonomic.github.io/ConseilJS)
 
 ## Dev Support
 
 1. [Tezos Dev](https://developers.tezos.com)
-2. [SmartPy Reference](smartpy.io/reference.html)
-3. [SmartPy Telegram](t.me/SmartPy_io)
-4. [Tezos India Developers Telegram](t.me/indiatezosdeveloper)
+2. [SmartPy Reference](https://smartpy.io/reference.html)
+3. [SmartPy Telegram](https://t.me/SmartPy_io)
+4. [Tezos India Developers Telegram](https://t.me/indiatezosdeveloper)
