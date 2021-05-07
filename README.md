@@ -1,6 +1,6 @@
 # Tezos Workshop
 
-Resources and code shared during tezos workshop in the python week. The presentation PPT can be found [here](https://docs.google.com/presentation/d/1IEi8dRbOYeN9i5rVsKWsNJFTnRnzWV3YSUhrifnPE9Y/edit?usp=sharing).
+Resources and code shared during tezos workshop. The presentation PPT can be found [here](https://docs.google.com/presentation/d/1IEi8dRbOYeN9i5rVsKWsNJFTnRnzWV3YSUhrifnPE9Y/edit?usp=sharing).
 
 ## Tools
 
