@@ -1,6 +1,6 @@
 {
-    "name": "Storage Example",
-    "network": "delphinet",
-    "rpc": "https://testnet-tezos.giganode.io",
-    "contractAddr": "KT1RcyuZeu6RcoeWDAUSVgUkrReWE2JrNMZh"
+  "name": "Storage Example",
+  "network": "florencenet",
+  "rpc": "https://florence-tezos.giganode.io/",
+  "contractAddr": "KT1M2HdNH5rPQ7X8eRzCoCzcWoTAuGFHFhS7"
 }

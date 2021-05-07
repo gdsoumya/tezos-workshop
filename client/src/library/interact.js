@@ -12,7 +12,7 @@ export const update = (Tezos, value, setStatus) =>
     })
     .then((hash) =>
       setStatus(
-        `Operation injected: <a target="#" href="https://delphinet.tzkt.io/${hash}">check here</a>`
+        `Operation injected: <a target="#" href="https://florencenet.tzkt.io/${hash}">check here</a>`
       )
     );
 
@@ -28,7 +28,7 @@ export const multiply = (Tezos, value, setStatus) =>
     })
     .then((hash) =>
       setStatus(
-        `Operation injected: <a target="#" href="https://delphinet.tzkt.io/${hash}">check here</a>`
+        `Operation injected: <a target="#" href="https://florencenet.tzkt.io/${hash}">check here</a>`
       )
     );
 export const add = (Tezos, { a, b }, setStatus) =>
@@ -43,7 +43,7 @@ export const add = (Tezos, { a, b }, setStatus) =>
     })
     .then((hash) =>
       setStatus(
-        `Operation injected: <a target="#" href="https://delphinet.tzkt.io/${hash}">check here</a>`
+        `Operation injected: <a target="#" href="https://florencenet.tzkt.io/${hash}">check here</a>`
       )
     );
 
