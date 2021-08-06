@@ -3,8 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@taquito/taquito": "^7.1.0-beta.0",
-    "@thanos-wallet/dapp": "^1.1.2",
+    "@taquito/beacon-wallet": "^10.0.0",
+    "@taquito/taquito": "^10.0.0",
+    "install": "^0.13.0",
+    "npm": "^7.20.5",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-scripts": "4.0.1"

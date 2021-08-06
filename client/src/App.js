@@ -1,7 +1,8 @@
-import React, { useEffect, useState } from "react";
 import "./App.css";
-import { connectWallet, setup } from "./library/connect";
+
+import React, { useEffect, useState } from "react";
 import { add, getValue, multiply, update } from "./library/interact";
+import { connectWalletBeacon, setup } from "./library/connect";
 
 const App = () => {
   const [Tezos, setTezos] = useState(undefined);
@@ -32,7 +33,7 @@ const App = () => {
   const handleEvent = async (e, func, params) => {
     e.preventDefault();
     try {
-      const wal = await connectWallet();
+      const wal = await connectWalletBeacon();
       Tezos.setWalletProvider(wal);
       setLoader(true);
       await func(Tezos, params, setStatus);
