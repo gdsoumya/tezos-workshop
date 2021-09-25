@@ -15,7 +15,7 @@ export const connectWalletBeacon = async () => {
     preferredNetwork: config.network,
   }
   const wallet = new BeaconWallet(options);
-  wallet.disconnect();
+  // wallet.disconnect();
   await wallet.requestPermissions({
     network: {
       type: config.network,

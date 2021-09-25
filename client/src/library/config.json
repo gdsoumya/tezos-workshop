@@ -1,6 +1,6 @@
 {
   "name": "Storage Example",
-  "network": "florencenet",
-  "rpc": "https://florence-tezos.giganode.io/",
-  "contractAddr": "KT1LdCspJGNgbALUPnCLurRFnHWLmvWESDYf"
+  "network": "granadanet",
+  "rpc": " https://granadanet.smartpy.io/",
+  "contractAddr": "KT1BzmHvppswSZheLtdgWmDcEnnHFTDzpiwi"
 }

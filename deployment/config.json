@@ -1,7 +1,7 @@
 {
     "privateKey": "",
     "publicAddress": "",
-    "rpc": "https://testnet-tezos.giganode.io/",
+    "rpc": " https://granadanet.smartpy.io/",
     "contract": [
         {
             "prim": "storage",
